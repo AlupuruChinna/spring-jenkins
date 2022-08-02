@@ -11,7 +11,7 @@ public class SpringJenkinsApplication {
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplication.class);
 
 	public static void main(String[] args) {
-		logger.info("Springboot application has started");
+		logger.info("Springboot application has started..");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
